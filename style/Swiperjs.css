@@ -1,0 +1,75 @@
+ .mySwiper{
+  
+    width: 100%;
+    max-height: 410px;
+    height: 100%;
+    background: #000;
+    
+ }
+ .mySwiper-2{
+  
+    max-height: 400px;
+    height: 100%;
+    background: #fff;
+    padding: 10px;
+ }
+ .swiper {
+      width: 100%;
+      height: 100%;
+    
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-height: 426px ;
+      width: 100%;
+
+    }
+  .mySwiper-2 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background-color: transparent !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .brand-icon{
+        background-color: #dbdbdbe4;
+        width: 70px;
+        height: 70px;
+        border-radius: 9999px;
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        -o-transition: all ease-in cubic-bezier(0.215, 0.610, 0.355, 1);
+        -webkit-transition: all ease-in cubic-bezier(0.215, 0.610, 0.355, 1);
+        -moz-transition: all ease-in cubic-bezier(0.215, 0.610, 0.355, 1);
+        -ms-transition: all ease-in cubic-bezier(0.215, 0.610, 0.355, 1);
+        transition: all ease-in cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+    .brand-icon:hover{
+        background-color: #dbdbdbf0;
+        scale: 1.2;
+        transition: all ease-in-out linear .7s 500ms;
+        -webkit-transition: all ease-in-out linear .7s 500ms;
+        -moz-transition: all ease-in-out linear .7s 500ms;
+        -ms-transition: all ease-in-out linear .7s 500ms;
+        -o-transition: all ease-in-out linear .7s 500ms;
+}

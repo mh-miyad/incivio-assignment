@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  added link of font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--  added link of font -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./style/Swiperjs.css" />
+    <link rel="stylesheet" href="./style/output.css" />
+    <title>Vite App</title>
+  </head>
+  <body class="bg-gray-100">
+    <!--  header part  -->
+    <header class="bg-white">
+      <div
+        class="text-nowrap text-center my-3 font-bold text-[#194E8A] text-base">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore
+      </div>
+      <!-- navbar -->
+      <nav class="bg-[#194E8A] lg:px-10">
+        <div class="container mx-auto navbar">
+          <!-- logo -->
+          <div class="logo">
+            <img src="./assets/logo.svg" alt="" />
+            <span>Essence</span>
+          </div>
+          <!-- logo -->
+          <!-- search -->
+          <div
+            class="flex items-center gap-2 border py-1 border-black px-5 rounded-full bg-white min-w-[500px]">
+            <i class="bi bi-search text-[#194E8A]"></i>
+            <label for="search" class="sr-only"> Search </label>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              class="border-none focus:border-none focus:ring-0 focus:outline-none bg-transparent min-w-[300px]"
+              placeholder="Example: Wallet" />
+          </div>
+          <!-- search -->
+          <!-- Account and user -->
+          <div class="flex items-center gap-4">
+            <a href="#">
+              <span>Cart</span>
+              <i class="bi bi-cart2"></i>
+            </a>
+            <a href="#">
+              <span>Sign In</span>
+              <i class="bi bi-person"></i>
+            </a>
+          </div>
+          <!-- Account and user -->
+        </div>
+      </nav>
+      <div class="container mx-auto my-3 pb-2">
+        <ul
+          class="flex justify-center space-x-10 text-xl flex-wrap 2xl:flex-nowrap text-[#194E8A] capitalize font-normal">
+          <li>Brand</li>
+          <li>Brand</li>
+          <li>Brand</li>
+          <li>Brand</li>
+          <li>Brand</li>
+          <li>Events</li>
+          <li>Events</li>
+          <li>Events</li>
+          <li>Events</li>
+          <li>Events</li>
+          <li>Events</li>
+          <li>Events</li>
+          <li>Events</li>
+          <li>Events</li>
+          <li>Events</li>
+          <li>Events</li>
+        </ul>
+      </div>
+    </header>
+    <!--  header part  -->
+    <!-- Hero Section part  -->
+
+    <section class="hero-section">
+      <!--  Left side Category part Start here  -->
+      <div
+        class="hidden xl:block bg-white min-w-[236px] max-w-[238px] px-8 py-5">
+        <h2 class="text-[#194E8A] font-bold capitalize">
+          <span><i class="bi bi-award"></i></span>
+          All Categories
+        </h2>
+        <ul class="flex flex-col gap-3 my-2">
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Cars and Motorcycles
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Music and Books
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Arts and Crafts
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Moms and Babies
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Softwares
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Home & Garden
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Electronics
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Kids and Toy
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Clothing and Shoes
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Beauty and Health
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Sports
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-award"></i>
+              Jewellery
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--  Left side Category part End here  -->
+      <!--  Carousel section part Start here  -->
+      <div class="flex flex-col max-w-[920px]">
+        <!-- main banner  -->
+
+        <div class="swiper mySwiper w-full">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/carousel-2.avif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/carousel-1.avif" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- main banner  -->
+        <!-- Swiper -->
+        <div class="swiper mySwiper-2">
+          <div class="swiper-wrapper px-10">
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-amazon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-apple"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-amazon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-apple"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-amazon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-apple"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-amazon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-apple"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-amazon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-apple"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-amazon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-apple"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-apple"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-amazon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)" class="brand-icon">
+                <i class="bi bi-apple"></i>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Swiper JS -->
+      </div>
+      <!--  Carousel section part End  here  -->
+      <!-- banner Section Start Here  -->
+      <div class="bg-white px-8 py-4 hidden 2xl:block">
+        <h2 class="text-xl py-2">Good Afternoon, John Smith</h2>
+
+        <a href="#" class="block">
+          <img src="./assets/Best deals.png" class="max-h-[426px]" alt="" />
+        </a>
+      </div>
+      <!-- banner Section End Here  -->
+    </section>
+
+    <!-- Hero Section part  -->
+    <section class="flex flex-wrap justify-between container mx-auto my-4">
+      <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
+        <img src="./assets/checkmark.png" class="size-7" alt="" />
+        <div class="flex flex-col gap-3 text-[14px]">
+          <span class="font-bold">Quick & Easy Store Pickup</span>
+          <span class="font-[400] text-[#676E6E]"
+            >Get your order as little as 1hr</span
+          >
+        </div>
+      </div>
+      <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
+        <img src="./assets/checkmark.png" class="size-7" alt="" />
+        <div class="flex flex-col gap-3 text-[14px]">
+          <span class="font-bold">Low Price Guarantee</span>
+          <span class="font-[400] text-[#676E6E]"
+            >We won’t be beat on price</span
+          >
+        </div>
+      </div>
+      <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
+        <img src="./assets/checkmark.png" class="size-7" alt="" />
+        <div class="flex flex-col gap-3 text-[14px]">
+          <span class="font-bold">Knowledgeable Advice</span>
+          <span class="font-[400] text-[#676E6E]"
+            >Answer to your tech questions</span
+          >
+        </div>
+      </div>
+      <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
+        <img src="./assets/checkmark.png" class="size-7" alt="" />
+        <div class="flex flex-col gap-3 text-[14px]">
+          <span class="font-bold">Lates & Greatest Tech</span>
+          <span class="font-[400] text-[#676E6E]"
+            >Discover whats new & excitings</span
+          >
+        </div>
+      </div>
+    </section>
+    <!--  features -->
+    <!-- Shop by Department -->
+    <section class="mt-20 mb-10 container mx-auto">
+      <h2 class="text-2xl font-semibold my-5">Shop By Department</h2>
+      <div
+        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5">
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p1.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p2.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p3.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p4.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p5.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p6.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p7.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p8.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p9.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p10.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p11.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+        <div
+          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+          <img
+            src="./assets/p12.jpg"
+            class="w-full h-full object-cover bg-transparent"
+            alt="" />
+          <a href="#" class="text-center"> Food </a>
+        </div>
+      </div>
+    </section>
+    <!-- Shop by Department -->
+    <!--  Here Added Script Tag  -->
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <!--  Swiper js For carousel  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper-2", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        slidesPerView: 10,
+        breakpoints: {
+          640: {
+            slidesPerView: 5,
+            spaceBetween: 0,
+          },
+          768: {
+            slidesPerView: 5,
+            spaceBetween: 1,
+          },
+          1024: {
+            slidesPerView: 8,
+            spaceBetween: 2,
+          },
+        },
+      });
+    </script>
+    <!--  Swiper js For carousel  -->
+  </body>
+</html>
