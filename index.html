@@ -1,610 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--  added link of font -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!--  added link of font -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="./style/Swiperjs.css" />
-    <link rel="stylesheet" href="./style/output.css" />
-    <title>Essence Shopping</title>
-  </head>
-  <body class="bg-gray-100">
-    <!--  header part  -->
-    <header class="bg-white">
-      <div
-        class="text-nowrap text-center my-3 font-bold text-[#194E8A] text-base">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore
-      </div>
-      <!-- navbar -->
-      <nav class="bg-[#194E8A] lg:px-10">
-        <div class="container mx-auto navbar">
-          <!-- logo -->
-          <div class="logo">
-            <img src="./assets/logo.svg" alt="" />
-            <span>Essence</span>
-          </div>
-          <!-- logo -->
-          <!-- search -->
-          <div
-            class="flex items-center gap-2 border py-1 border-black px-5 rounded-full bg-white min-w-[500px]">
-            <i class="bi bi-search text-[#194E8A]"></i>
-            <label for="search" class="sr-only"> Search </label>
-            <input
-              type="text"
-              name="search"
-              id="search"
-              class="border-none focus:border-none focus:ring-0 focus:outline-none bg-transparent min-w-[300px]"
-              placeholder="Example: Wallet" />
-          </div>
-          <!-- search -->
-          <!-- Account and user -->
-          <div class="flex items-center gap-4">
-            <a href="#">
-              <span>Cart</span>
-              <i class="bi bi-cart2"></i>
-            </a>
-            <a href="#">
-              <span>Sign In</span>
-              <i class="bi bi-person"></i>
-            </a>
-          </div>
-          <!-- Account and user -->
-        </div>
-      </nav>
-      <div class="container mx-auto my-3 pb-2">
-        <ul
-          class="flex justify-center space-x-10 text-xl flex-wrap 2xl:flex-nowrap text-[#194E8A] capitalize font-normal">
-          <li>Brand</li>
-          <li>Brand</li>
-          <li>Brand</li>
-          <li>Brand</li>
-          <li>Brand</li>
-          <li>Events</li>
-          <li>Events</li>
-          <li>Events</li>
-          <li>Events</li>
-          <li>Events</li>
-          <li>Events</li>
-          <li>Events</li>
-          <li>Events</li>
-          <li>Events</li>
-          <li>Events</li>
-          <li>Events</li>
-        </ul>
-      </div>
-    </header>
-    <!--  header part  -->
-    <!-- Hero Section part  -->
 
-    <section class="hero-section">
-      <!--  Left side Category part Start here  -->
-      <div
-        class="hidden xl:block bg-white min-w-[236px] max-w-[238px] px-8 py-5">
-        <h2 class="text-[#194E8A] font-bold capitalize">
-          <span><i class="bi bi-award"></i></span>
-          All Categories
-        </h2>
-        <ul class="flex flex-col gap-3 my-2">
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Cars and Motorcycles
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Music and Books
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Arts and Crafts
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Moms and Babies
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Softwares
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Home & Garden
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Electronics
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Kids and Toy
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Clothing and Shoes
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Beauty and Health
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Sports
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="bi bi-award"></i>
-              Jewellery
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!--  Left side Category part End here  -->
-      <!--  Carousel section part Start here  -->
-      <div class="flex flex-col max-w-[920px]">
-        <!-- main banner  -->
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--  added link of font -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!--  added link of font -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style/Swiperjs.css" />
+  <link rel="stylesheet" href="./style/output.css" />
+  <title>Essence Shopping</title>
+</head>
 
-        <div class="swiper mySwiper w-full">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./assets/carousel-2.avif" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/carousel-1.avif" alt="" />
-            </div>
+<body class="bg-gray-100">
+  <!--  header part  -->
+  <header class="bg-white">
+    <div class="text-nowrap text-center my-3 font-bold text-[#194E8A] text-base">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore
+    </div>
+    <!-- navbar -->
+    <nav class="bg-[#194E8A] lg:px-10">
+      <div class="container mx-auto navbar">
+        <!-- logo -->
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="" />
+          <span>Essence</span>
+        </div>
+        <!-- logo -->
+        <!-- search -->
+        <div class="flex items-center gap-2 border py-1 border-black px-5 rounded-full bg-white min-w-[500px]">
+          <i class="bi bi-search text-[#194E8A]"></i>
+          <label for="search" class="sr-only"> Search </label>
+          <input type="text" name="search" id="search"
+            class="border-none focus:border-none focus:ring-0 focus:outline-none bg-transparent min-w-[300px]"
+            placeholder="Example: Wallet" />
+        </div>
+        <!-- search -->
+        <!-- Account and user -->
+        <div class="flex items-center gap-4">
+          <a href="#">
+            <span>Cart</span>
+            <i class="bi bi-cart2"></i>
+          </a>
+          <a href="#">
+            <span>Sign In</span>
+            <i class="bi bi-person"></i>
+          </a>
+        </div>
+        <!-- Account and user -->
+      </div>
+    </nav>
+    <div class="container mx-auto my-3 pb-2">
+      <ul
+        class="flex justify-center space-x-10 text-xl flex-wrap 2xl:flex-nowrap text-[#194E8A] capitalize font-normal">
+        <li>Brand</li>
+        <li>Brand</li>
+        <li>Brand</li>
+        <li>Brand</li>
+        <li>Brand</li>
+        <li>Events</li>
+        <li>Events</li>
+        <li>Events</li>
+        <li>Events</li>
+        <li>Events</li>
+        <li>Events</li>
+        <li>Events</li>
+        <li>Events</li>
+        <li>Events</li>
+        <li>Events</li>
+        <li>Events</li>
+      </ul>
+    </div>
+  </header>
+  <!--  header part  -->
+  <!-- Hero Section part  -->
+
+  <section class="hero-section">
+    <!--  Left side Category part Start here  -->
+    <div class="hidden xl:block bg-white min-w-[236px] max-w-[238px] px-8 py-5">
+      <h2 class="text-[#194E8A] font-bold capitalize">
+        <span><i class="bi bi-award"></i></span>
+        All Categories
+      </h2>
+      <ul class="flex flex-col gap-3 my-2">
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Cars and Motorcycles
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Music and Books
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Arts and Crafts
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Moms and Babies
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Softwares
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Home & Garden
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Electronics
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Kids and Toy
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Clothing and Shoes
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Beauty and Health
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Sports
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-award"></i>
+            Jewellery
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--  Left side Category part End here  -->
+    <!--  Carousel section part Start here  -->
+    <div class="flex flex-col max-w-[920px]">
+      <!-- main banner  -->
+
+      <div class="swiper mySwiper w-full">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/carousel-2.avif" alt="" />
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
-        <!-- main banner  -->
-        <!-- Swiper -->
-        <div class="swiper mySwiper-2">
-          <div class="swiper-wrapper px-10">
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-amazon"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-apple"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-amazon"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-apple"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-amazon"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-apple"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-amazon"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-apple"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-amazon"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-apple"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-amazon"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-apple"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-apple"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-amazon"></i>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="javascript:void(0)" class="brand-icon">
-                <i class="bi bi-apple"></i>
-              </a>
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-
-        <!-- Swiper JS -->
-      </div>
-      <!--  Carousel section part End  here  -->
-      <!-- banner Section Start Here  -->
-      <div class="bg-white px-8 py-4 hidden 2xl:block">
-        <h2 class="text-xl py-2">Good Afternoon, John Smith</h2>
-
-        <a href="#" class="block">
-          <img src="./assets/Best deals.png" class="max-h-[426px]" alt="" />
-        </a>
-      </div>
-      <!-- banner Section End Here  -->
-    </section>
-
-    <!-- Hero Section part  -->
-    <section class="flex flex-wrap justify-between container mx-auto my-4">
-      <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
-        <img src="./assets/checkmark.png" class="size-7" alt="" />
-        <div class="flex flex-col gap-3 text-[14px]">
-          <span class="font-bold">Quick & Easy Store Pickup</span>
-          <span class="font-[400] text-[#676E6E]"
-            >Get your order as little as 1hr</span
-          >
-        </div>
-      </div>
-      <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
-        <img src="./assets/checkmark.png" class="size-7" alt="" />
-        <div class="flex flex-col gap-3 text-[14px]">
-          <span class="font-bold">Low Price Guarantee</span>
-          <span class="font-[400] text-[#676E6E]"
-            >We won’t be beat on price</span
-          >
-        </div>
-      </div>
-      <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
-        <img src="./assets/checkmark.png" class="size-7" alt="" />
-        <div class="flex flex-col gap-3 text-[14px]">
-          <span class="font-bold">Knowledgeable Advice</span>
-          <span class="font-[400] text-[#676E6E]"
-            >Answer to your tech questions</span
-          >
-        </div>
-      </div>
-      <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
-        <img src="./assets/checkmark.png" class="size-7" alt="" />
-        <div class="flex flex-col gap-3 text-[14px]">
-          <span class="font-bold">Lates & Greatest Tech</span>
-          <span class="font-[400] text-[#676E6E]"
-            >Discover whats new & excitings</span
-          >
-        </div>
-      </div>
-    </section>
-    <!--  features -->
-    <!-- Shop by Department -->
-    <section class="mt-20 mb-10 container mx-auto">
-      <h2 class="text-2xl font-semibold my-5">Shop By Department</h2>
-      <div
-        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5">
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p1.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p2.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p3.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p4.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p5.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p6.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p7.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p8.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p9.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p10.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p11.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-        <div
-          class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
-          <img
-            src="./assets/p12.jpg"
-            class="w-full h-full object-cover bg-transparent"
-            alt="" />
-          <a href="#" class="text-center"> Food </a>
-        </div>
-      </div>
-    </section>
-    <!-- Shop by Department -->
-
-    <!--  Here Add Shop by Deal of The Day -->
-    <section class="mt-20 mb-10 container mx-auto">
-      <h2 class="text-2xl font-semibold my-5">Deal of The Day</h2>
-      <!--  top level-1 -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
-        <!-- card-1 -->
-        <div class="bg-white grid grid-cols-2 gap-4 px-5 py-5">
-          <div>
-            <img src="./assets/big-card.png" class="" alt="" />
-          </div>
-          <div>
-            <h2 class="text-[#010E0E] text-lg font-semibold">
-              Wireless Bluetooth Headset Single Ear Earplugs Ultra...
-            </h2>
-            <div class="flex items-center gap-4 text-sm">
-              <a href="#" class="flex items-center">
-                <i class="bi bi-star-fill text-yellow-300"></i>
-                <i class="bi bi-star-fill text-yellow-300"></i>
-                <i class="bi bi-star-fill text-yellow-300"></i>
-                <i class="bi bi-star-fill text-yellow-300"></i>
-                <i class="bi bi-star text-gray-100"></i>
-              </a>
-              <span> 4.5 (121) </span>
-            </div>
-            <div class="flex flex-col gap-5">
-              <div class="flex items-center gap-x-5">
-                <p class="text-3xl font-bold">
-                  <span class="text-xl font-medium">$</span>
-                  6
-                </p>
-                <p class="text-[#676E6E] text-2xl">
-                  <span class="line-through">$16</span>
-                  <span>-50%</span>
-                </p>
-              </div>
-              <p class="text-[#676E6E] text-base">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor...
-              </p>
-              <div class="flex items-center gap-3">
-                <a
-                  href="#"
-                  class="bg-white/90 text-[#676E6E] px-5 py-2 rounded text-center capitalize">
-                  <i class="bi bi-eye-fill"></i>
-                  preview
-                </a>
-                <a
-                  href="#"
-                  class="bg-white/90 text-[#676E6E] px-5 py-2 rounded text-center capitalize">
-                  <i class="bi bi-layout-split"></i>
-                  Compare
-                </a>
-              </div>
-              <button
-                class="bg-[#194E8A] w-full py-2.5 text-white text-center px-3">
-                Add to Cart
-              </button>
-            </div>
+          <div class="swiper-slide">
+            <img src="./assets/carousel-1.avif" alt="" />
           </div>
         </div>
-
-        <!-- card-1 -->
-        <!-- card-2 -->
-        <div class="bg-white grid grid-cols-2 gap-4 px-5 py-5">
-          <div class="relative">
-            <img src="./assets/card-2.png" class="h-full" alt="" />
-            <div
-              class="absolute bottom-3 bg-white left-4 mx-2 z-10 px-4 py-1 flex justify-between space-x-6">
-              <p class="text-center text-sm font-medium">
-                <span id="days" class="text-red-500 font-bold text-lg">6</span>
-                <br />
-                Days
-              </p>
-              <p class="text-center text-sm font-medium">
-                <span id="hours" class="text-red-500 font-bold text-lg">6</span>
-                <br />
-                Hours
-              </p>
-              <p class="text-center text-sm font-medium">
-                <span id="minutes" class="text-red-500 font-bold text-lg"
-                  >6</span
-                >
-                <br />
-                Minutes
-              </p>
-              <p class="text-center text-sm font-medium">
-                <span id="second" class="text-red-500 font-bold text-lg"
-                  >6</span
-                >
-                <br />
-                Second
-              </p>
-            </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- main banner  -->
+      <!-- Swiper -->
+      <div class="swiper mySwiper-2">
+        <div class="swiper-wrapper px-10">
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-amazon"></i>
+            </a>
           </div>
-          <div>
-            <h2 class="text-[#010E0E] text-lg font-semibold">
-              Wireless Bluetooth Headset Single Ear Earplugs Ultra...
-            </h2>
-            <div class="flex items-center gap-4 text-sm">
-              <a href="#" class="flex items-center">
-                <i class="bi bi-star-fill text-yellow-300"></i>
-                <i class="bi bi-star-fill text-yellow-300"></i>
-                <i class="bi bi-star-fill text-yellow-300"></i>
-                <i class="bi bi-star-fill text-yellow-300"></i>
-                <i class="bi bi-star text-gray-100"></i>
-              </a>
-              <span> 4.5 (121) </span>
-            </div>
-            <div class="flex flex-col gap-5">
-              <div class="flex items-center gap-x-5">
-                <p class="text-3xl font-bold">
-                  <span class="text-xl font-medium">$</span>
-                  6
-                </p>
-                <p class="text-[#676E6E] text-2xl">
-                  <span class="line-through">$16</span>
-                  <span>-50%</span>
-                </p>
-              </div>
-              <p class="text-[#676E6E] text-base">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor...
-              </p>
-              <div class="flex items-center gap-3">
-                <a
-                  href="#"
-                  class="bg-white/90 text-[#676E6E] px-5 py-2 rounded text-center capitalize">
-                  <i class="bi bi-eye-fill"></i>
-                  preview
-                </a>
-                <a
-                  href="#"
-                  class="bg-white/90 text-[#676E6E] px-5 py-2 rounded text-center capitalize">
-                  <i class="bi bi-layout-split"></i>
-                  Compare
-                </a>
-              </div>
-              <button
-                class="bg-[#194E8A] w-full py-2.5 text-white text-center px-3">
-                Add to Cart
-              </button>
-            </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-apple"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-amazon"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-apple"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-amazon"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-apple"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-amazon"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-apple"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-amazon"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-apple"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-amazon"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-apple"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-apple"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-amazon"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)" class="brand-icon">
+              <i class="bi bi-apple"></i>
+            </a>
           </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
 
-        <!-- card-2 -->
+      <!-- Swiper JS -->
+    </div>
+    <!--  Carousel section part End  here  -->
+    <!-- banner Section Start Here  -->
+    <div class="bg-white px-8 py-4 hidden 2xl:block">
+      <h2 class="text-xl py-2">Good Afternoon, John Smith</h2>
+
+      <a href="#" class="block">
+        <img src="./assets/Best deals.png" class="max-h-[426px]" alt="" />
+      </a>
+    </div>
+    <!-- banner Section End Here  -->
+  </section>
+
+  <!-- Hero Section part  -->
+  <section class="flex flex-wrap justify-between container mx-auto my-4">
+    <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
+      <img src="./assets/checkmark.png" class="size-7" alt="" />
+      <div class="flex flex-col gap-3 text-[14px]">
+        <span class="font-bold">Quick & Easy Store Pickup</span>
+        <span class="font-[400] text-[#676E6E]">Get your order as little as 1hr</span>
       </div>
-      <!--  top level-1 -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-        <img
-          src="./assets/woodenSofa.png"
-          class="object-cover w-full h-full cursor-pointer"
-          alt="" />
-        <img
-          src="./assets/woodenSofa.png"
-          class="object-cover w-full h-full cursor-pointer"
-          alt="" />
+    </div>
+    <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
+      <img src="./assets/checkmark.png" class="size-7" alt="" />
+      <div class="flex flex-col gap-3 text-[14px]">
+        <span class="font-bold">Low Price Guarantee</span>
+        <span class="font-[400] text-[#676E6E]">We won’t be beat on price</span>
       </div>
-    </section>
-    <!--  Here Add Shop by Deal of The Day -->
-    <!--  Here Add Shop by Deal of The Day -->
-    <section class="mt-20 mb-10 container mx-auto">
-      <h2 class="text-2xl font-semibold my-5">On Selling Products</h2>
-      <!--  top level-1 -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 2xl:grid-cols-3 mb-5">
-        <!-- card -->
-        <div class="flex items-center gap-x-5 bg-white">
-          <img src="./assets/image/c (1).png" alt="" />
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">
-              Wireless Bluetooth Headset Single
-            </h2>
-            <p class="text-[#676E6E] text-sm">
-              Wireless Bluetooth Headset Single
-            </p>
+    </div>
+    <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
+      <img src="./assets/checkmark.png" class="size-7" alt="" />
+      <div class="flex flex-col gap-3 text-[14px]">
+        <span class="font-bold">Knowledgeable Advice</span>
+        <span class="font-[400] text-[#676E6E]">Answer to your tech questions</span>
+      </div>
+    </div>
+    <div class="flex items-center bg-white p-2 gap-x-4 pl-2 pr-20">
+      <img src="./assets/checkmark.png" class="size-7" alt="" />
+      <div class="flex flex-col gap-3 text-[14px]">
+        <span class="font-bold">Lates & Greatest Tech</span>
+        <span class="font-[400] text-[#676E6E]">Discover whats new & excitings</span>
+      </div>
+    </div>
+  </section>
+  <!--  features -->
+  <!-- Shop by Department -->
+  <section class="mt-20 mb-10 container mx-auto">
+    <h2 class="text-2xl font-semibold my-5">Shop By Department</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5">
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p1.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p2.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p3.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p4.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p5.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p6.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p7.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p8.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p9.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p10.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p11.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+      <div class="flex flex-col justify-center gap-4 max-h-[244px] h-full max-w-[236px] w-full">
+        <img src="./assets/p12.jpg" class="w-full h-full object-cover bg-transparent" alt="" />
+        <a href="#" class="text-center"> Food </a>
+      </div>
+    </div>
+  </section>
+  <!-- Shop by Department -->
+
+  <!--  Here Add Shop by Deal of The Day -->
+  <section class="mt-20 mb-10 container mx-auto">
+    <h2 class="text-2xl font-semibold my-5">Deal of The Day</h2>
+    <!--  top level-1 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
+      <!-- card-1 -->
+      <div class="bg-white grid grid-cols-2 gap-4 px-5 py-5">
+        <div>
+          <img src="./assets/big-card.png" class="" alt="" />
+        </div>
+        <div>
+          <h2 class="text-[#010E0E] text-lg font-semibold">
+            Wireless Bluetooth Headset Single Ear Earplugs Ultra...
+          </h2>
+          <div class="flex items-center gap-4 text-sm">
+            <a href="#" class="flex items-center">
+              <i class="bi bi-star-fill text-yellow-300"></i>
+              <i class="bi bi-star-fill text-yellow-300"></i>
+              <i class="bi bi-star-fill text-yellow-300"></i>
+              <i class="bi bi-star-fill text-yellow-300"></i>
+              <i class="bi bi-star text-gray-100"></i>
+            </a>
+            <span> 4.5 (121) </span>
+          </div>
+          <div class="flex flex-col gap-5">
             <div class="flex items-center gap-x-5">
               <p class="text-3xl font-bold">
                 <span class="text-xl font-medium">$</span>
@@ -615,300 +398,426 @@
                 <span>-50%</span>
               </p>
             </div>
-          </div>
-        </div>
-        <!-- card -->
-        <!-- card -->
-        <div class="flex items-center gap-x-5 bg-white">
-          <img src="./assets/image/c (2).png" alt="" />
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">
-              Wireless Bluetooth Headset Single
-            </h2>
-            <p class="text-[#676E6E] text-sm">
-              Wireless Bluetooth Headset Single
+            <p class="text-[#676E6E] text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor...
             </p>
-            <div class="flex items-center gap-x-5">
-              <p class="text-3xl font-bold">
-                <span class="text-xl font-medium">$</span>
-                6
-              </p>
-              <p class="text-[#676E6E] text-2xl">
-                <span class="line-through">$16</span>
-                <span>-50%</span>
-              </p>
+            <div class="flex items-center gap-3">
+              <a href="#" class="bg-white/90 text-[#676E6E] px-5 py-2 rounded text-center capitalize">
+                <i class="bi bi-eye-fill"></i>
+                preview
+              </a>
+              <a href="#" class="bg-white/90 text-[#676E6E] px-5 py-2 rounded text-center capitalize">
+                <i class="bi bi-layout-split"></i>
+                Compare
+              </a>
             </div>
+            <button class="bg-[#194E8A] w-full py-2.5 text-white text-center px-3">
+              Add to Cart
+            </button>
           </div>
         </div>
-        <!-- card -->
-        <!-- card -->
-        <div class="flex items-center gap-x-5 bg-white">
-          <img src="./assets/image/c (3).png" alt="" />
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">
-              Wireless Bluetooth Headset Single
-            </h2>
-            <p class="text-[#676E6E] text-sm">
-              Wireless Bluetooth Headset Single
-            </p>
-            <div class="flex items-center gap-x-5">
-              <p class="text-3xl font-bold">
-                <span class="text-xl font-medium">$</span>
-                6
-              </p>
-              <p class="text-[#676E6E] text-2xl">
-                <span class="line-through">$16</span>
-                <span>-50%</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- card -->
-        <!-- card -->
-        <div class="flex items-center gap-x-5 bg-white">
-          <img src="./assets/image/c (4).png" alt="" />
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">
-              Wireless Bluetooth Headset Single
-            </h2>
-            <p class="text-[#676E6E] text-sm">
-              Wireless Bluetooth Headset Single
-            </p>
-            <div class="flex items-center gap-x-5">
-              <p class="text-3xl font-bold">
-                <span class="text-xl font-medium">$</span>
-                6
-              </p>
-              <p class="text-[#676E6E] text-2xl">
-                <span class="line-through">$16</span>
-                <span>-50%</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- card -->
-        <!-- card -->
-        <div class="flex items-center gap-x-5 bg-white">
-          <img src="./assets/image/c (5).png" alt="" />
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">
-              Wireless Bluetooth Headset Single
-            </h2>
-            <p class="text-[#676E6E] text-sm">
-              Wireless Bluetooth Headset Single
-            </p>
-            <div class="flex items-center gap-x-5">
-              <p class="text-3xl font-bold">
-                <span class="text-xl font-medium">$</span>
-                6
-              </p>
-              <p class="text-[#676E6E] text-2xl">
-                <span class="line-through">$16</span>
-                <span>-50%</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- card -->
-        <!-- card -->
-        <div class="flex items-center gap-x-5 bg-white">
-          <img src="./assets/image/c (6).png" alt="" />
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">
-              Wireless Bluetooth Headset Single
-            </h2>
-            <p class="text-[#676E6E] text-sm">
-              Wireless Bluetooth Headset Single
-            </p>
-            <div class="flex items-center gap-x-5">
-              <p class="text-3xl font-bold">
-                <span class="text-xl font-medium">$</span>
-                6
-              </p>
-              <p class="text-[#676E6E] text-2xl">
-                <span class="line-through">$16</span>
-                <span>-50%</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- card -->
-        <!-- card -->
-        <div class="flex items-center gap-x-5 bg-white">
-          <img src="./assets/image/c (7).png" alt="" />
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">
-              Wireless Bluetooth Headset Single
-            </h2>
-            <p class="text-[#676E6E] text-sm">
-              Wireless Bluetooth Headset Single
-            </p>
-            <div class="flex items-center gap-x-5">
-              <p class="text-3xl font-bold">
-                <span class="text-xl font-medium">$</span>
-                6
-              </p>
-              <p class="text-[#676E6E] text-2xl">
-                <span class="line-through">$16</span>
-                <span>-50%</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- card -->
-        <!-- card -->
-        <div class="flex items-center gap-x-5 bg-white">
-          <img src="./assets/image/c (8).png" alt="" />
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">
-              Wireless Bluetooth Headset Single
-            </h2>
-            <p class="text-[#676E6E] text-sm">
-              Wireless Bluetooth Headset Single
-            </p>
-            <div class="flex items-center gap-x-5">
-              <p class="text-3xl font-bold">
-                <span class="text-xl font-medium">$</span>
-                6
-              </p>
-              <p class="text-[#676E6E] text-2xl">
-                <span class="line-through">$16</span>
-                <span>-50%</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- card -->
-        <!-- card -->
-        <div class="flex items-center gap-x-5 bg-white">
-          <img src="./assets/image/c (9).png" alt="" />
-          <div>
-            <h2 class="text-2xl font-semibold mb-2">
-              Wireless Bluetooth Headset Single
-            </h2>
-            <p class="text-[#676E6E] text-sm">
-              Wireless Bluetooth Headset Single
-            </p>
-            <div class="flex items-center gap-x-5">
-              <p class="text-3xl font-bold">
-                <span class="text-xl font-medium">$</span>
-                6
-              </p>
-              <p class="text-[#676E6E] text-2xl">
-                <span class="line-through">$16</span>
-                <span>-50%</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- card -->
       </div>
-      <!--  top level-1 -->
-    </section>
-    <!--  Here Add Shop by Deal of The Day -->
 
-    <!-- Shop by On Selling Products -->
-    <section class="mt-20 mb-10 container mx-auto">
-      <h2 class="text-2xl font-semibold my-5">On Selling Products</h2>
-      <div
-        class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-2 items-start">
-        <div class="flex flex-col gap-3">
-          <img src="./assets/assHomm (1).jpg" class="object-cover" alt="" />
-          <img src="./assets/assHomm (1).jpg" class="object-cover" alt="" />
+      <!-- card-1 -->
+      <!-- card-2 -->
+      <div class="bg-white grid grid-cols-2 gap-4 px-5 py-5">
+        <div class="relative">
+          <img src="./assets/card-2.png" class="h-full" alt="" />
+          <div class="absolute bottom-3 bg-white left-0 right-0 mx-2 z-10 px-4 py-1 flex justify-between space-x-6">
+            <p class="text-center text-sm font-medium">
+              <span id="days" class="text-red-500 font-bold text-lg">6</span>
+              <br />
+              Days
+            </p>
+            <p class="text-center text-sm font-medium">
+              <span id="hours" class="text-red-500 font-bold text-lg">6</span>
+              <br />
+              Hours
+            </p>
+            <p class="text-center text-sm font-medium">
+              <span id="minutes" class="text-red-500 font-bold text-lg">6</span>
+              <br />
+              Minutes
+            </p>
+            <p class="text-center text-sm font-medium">
+              <span id="second" class="text-red-500 font-bold text-lg">6</span>
+              <br />
+              Second
+            </p>
+          </div>
         </div>
-        <div class="bg-[#B076DA] flex-grow h-full">
-          <img
-            src="./assets/superMega.png"
-            class="w-full h-full object-center"
-            alt="" />
-        </div>
-        <div class="flex flex-col gap-3">
-          <img src="./assets/assHomm (1).jpg" class="object-cover" alt="" />
-          <img src="./assets/assHomm (1).jpg" class="object-cover" alt="" />
+        <div>
+          <h2 class="text-[#010E0E] text-lg font-semibold">
+            Wireless Bluetooth Headset Single Ear Earplugs Ultra...
+          </h2>
+          <div class="flex items-center gap-4 text-sm">
+            <a href="#" class="flex items-center">
+              <i class="bi bi-star-fill text-yellow-300"></i>
+              <i class="bi bi-star-fill text-yellow-300"></i>
+              <i class="bi bi-star-fill text-yellow-300"></i>
+              <i class="bi bi-star-fill text-yellow-300"></i>
+              <i class="bi bi-star text-gray-100"></i>
+            </a>
+            <span> 4.5 (121) </span>
+          </div>
+          <div class="flex flex-col gap-5">
+            <div class="flex items-center gap-x-5">
+              <p class="text-3xl font-bold">
+                <span class="text-xl font-medium">$</span>
+                6
+              </p>
+              <p class="text-[#676E6E] text-2xl">
+                <span class="line-through">$16</span>
+                <span>-50%</span>
+              </p>
+            </div>
+            <p class="text-[#676E6E] text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor...
+            </p>
+            <div class="flex items-center gap-3">
+              <a href="#" class="bg-white/90 text-[#676E6E] px-5 py-2 rounded text-center capitalize">
+                <i class="bi bi-eye-fill"></i>
+                preview
+              </a>
+              <a href="#" class="bg-white/90 text-[#676E6E] px-5 py-2 rounded text-center capitalize">
+                <i class="bi bi-layout-split"></i>
+                Compare
+              </a>
+            </div>
+            <button class="bg-[#194E8A] w-full py-2.5 text-white text-center px-3">
+              Add to Cart
+            </button>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- Shop by On Selling Products -->
-    <!--  Here Added Script Tag  -->
-    <script type="module" src="/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-    <!--  Swiper js For carousel  -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        pagination: {
-          el: ".swiper-pagination",
+
+      <!-- card-2 -->
+    </div>
+    <!--  top level-1 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <img src="./assets/woodenSofa.png" class="object-cover w-full h-full cursor-pointer" alt="" />
+      <img src="./assets/woodenSofa.png" class="object-cover w-full h-full cursor-pointer" alt="" />
+    </div>
+  </section>
+  <!--  Here Add Shop by Deal of The Day -->
+  <!--  Here Add Shop by Deal of The Day -->
+  <section class="mt-20 mb-10 container mx-auto">
+    <h2 class="text-2xl font-semibold my-5">On Selling Products</h2>
+    <!--  top level-1 -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 2xl:grid-cols-3 mb-5">
+      <!-- card -->
+      <div class="flex items-center gap-x-5 bg-white">
+        <img src="./assets/image/c (1).png" alt="" />
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">
+            Wireless Bluetooth Headset Single
+          </h2>
+          <p class="text-[#676E6E] text-sm">
+            Wireless Bluetooth Headset Single
+          </p>
+          <div class="flex items-center gap-x-5">
+            <p class="text-3xl font-bold">
+              <span class="text-xl font-medium">$</span>
+              6
+            </p>
+            <p class="text-[#676E6E] text-2xl">
+              <span class="line-through">$16</span>
+              <span>-50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <!-- card -->
+      <div class="flex items-center gap-x-5 bg-white">
+        <img src="./assets/image/c (2).png" alt="" />
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">
+            Wireless Bluetooth Headset Single
+          </h2>
+          <p class="text-[#676E6E] text-sm">
+            Wireless Bluetooth Headset Single
+          </p>
+          <div class="flex items-center gap-x-5">
+            <p class="text-3xl font-bold">
+              <span class="text-xl font-medium">$</span>
+              6
+            </p>
+            <p class="text-[#676E6E] text-2xl">
+              <span class="line-through">$16</span>
+              <span>-50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <!-- card -->
+      <div class="flex items-center gap-x-5 bg-white">
+        <img src="./assets/image/c (3).png" alt="" />
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">
+            Wireless Bluetooth Headset Single
+          </h2>
+          <p class="text-[#676E6E] text-sm">
+            Wireless Bluetooth Headset Single
+          </p>
+          <div class="flex items-center gap-x-5">
+            <p class="text-3xl font-bold">
+              <span class="text-xl font-medium">$</span>
+              6
+            </p>
+            <p class="text-[#676E6E] text-2xl">
+              <span class="line-through">$16</span>
+              <span>-50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <!-- card -->
+      <div class="flex items-center gap-x-5 bg-white">
+        <img src="./assets/image/c (4).png" alt="" />
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">
+            Wireless Bluetooth Headset Single
+          </h2>
+          <p class="text-[#676E6E] text-sm">
+            Wireless Bluetooth Headset Single
+          </p>
+          <div class="flex items-center gap-x-5">
+            <p class="text-3xl font-bold">
+              <span class="text-xl font-medium">$</span>
+              6
+            </p>
+            <p class="text-[#676E6E] text-2xl">
+              <span class="line-through">$16</span>
+              <span>-50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <!-- card -->
+      <div class="flex items-center gap-x-5 bg-white">
+        <img src="./assets/image/c (5).png" alt="" />
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">
+            Wireless Bluetooth Headset Single
+          </h2>
+          <p class="text-[#676E6E] text-sm">
+            Wireless Bluetooth Headset Single
+          </p>
+          <div class="flex items-center gap-x-5">
+            <p class="text-3xl font-bold">
+              <span class="text-xl font-medium">$</span>
+              6
+            </p>
+            <p class="text-[#676E6E] text-2xl">
+              <span class="line-through">$16</span>
+              <span>-50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <!-- card -->
+      <div class="flex items-center gap-x-5 bg-white">
+        <img src="./assets/image/c (6).png" alt="" />
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">
+            Wireless Bluetooth Headset Single
+          </h2>
+          <p class="text-[#676E6E] text-sm">
+            Wireless Bluetooth Headset Single
+          </p>
+          <div class="flex items-center gap-x-5">
+            <p class="text-3xl font-bold">
+              <span class="text-xl font-medium">$</span>
+              6
+            </p>
+            <p class="text-[#676E6E] text-2xl">
+              <span class="line-through">$16</span>
+              <span>-50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <!-- card -->
+      <div class="flex items-center gap-x-5 bg-white">
+        <img src="./assets/image/c (7).png" alt="" />
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">
+            Wireless Bluetooth Headset Single
+          </h2>
+          <p class="text-[#676E6E] text-sm">
+            Wireless Bluetooth Headset Single
+          </p>
+          <div class="flex items-center gap-x-5">
+            <p class="text-3xl font-bold">
+              <span class="text-xl font-medium">$</span>
+              6
+            </p>
+            <p class="text-[#676E6E] text-2xl">
+              <span class="line-through">$16</span>
+              <span>-50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <!-- card -->
+      <div class="flex items-center gap-x-5 bg-white">
+        <img src="./assets/image/c (8).png" alt="" />
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">
+            Wireless Bluetooth Headset Single
+          </h2>
+          <p class="text-[#676E6E] text-sm">
+            Wireless Bluetooth Headset Single
+          </p>
+          <div class="flex items-center gap-x-5">
+            <p class="text-3xl font-bold">
+              <span class="text-xl font-medium">$</span>
+              6
+            </p>
+            <p class="text-[#676E6E] text-2xl">
+              <span class="line-through">$16</span>
+              <span>-50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+      <!-- card -->
+      <div class="flex items-center gap-x-5 bg-white">
+        <img src="./assets/image/c (9).png" alt="" />
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">
+            Wireless Bluetooth Headset Single
+          </h2>
+          <p class="text-[#676E6E] text-sm">
+            Wireless Bluetooth Headset Single
+          </p>
+          <div class="flex items-center gap-x-5">
+            <p class="text-3xl font-bold">
+              <span class="text-xl font-medium">$</span>
+              6
+            </p>
+            <p class="text-[#676E6E] text-2xl">
+              <span class="line-through">$16</span>
+              <span>-50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card -->
+    </div>
+    <!--  top level-1 -->
+  </section>
+  <!--  Here Add Shop by Deal of The Day -->
+
+  <!-- Shop by On Selling Products -->
+  <section class="mt-20 mb-10 container mx-auto">
+    <h2 class="text-2xl font-semibold my-5">On Selling Products</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-2 items-start">
+      <div class="flex flex-col gap-3">
+        <img src="./assets/assHomm (1).jpg" class="object-cover" alt="" />
+        <img src="./assets/assHomm (1).jpg" class="object-cover" alt="" />
+      </div>
+      <div class="bg-[#B076DA] flex-grow h-full">
+        <img src="./assets/superMega.png" class="w-full h-full object-center" alt="" />
+      </div>
+      <div class="flex flex-col gap-3">
+        <img src="./assets/assHomm (1).jpg" class="object-cover" alt="" />
+        <img src="./assets/assHomm (1).jpg" class="object-cover" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- Shop by On Selling Products -->
+  <!--  Here Added Script Tag  -->
+  <script type="module" src="/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  <!--  Swiper js For carousel  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+  <script>
+    var swiper = new Swiper(".mySwiper-2", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      slidesPerView: 10,
+      breakpoints: {
+        640: {
+          slidesPerView: 5,
+          spaceBetween: 0,
         },
-      });
-    </script>
-    <script>
-      var swiper = new Swiper(".mySwiper-2", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+        768: {
+          slidesPerView: 5,
+          spaceBetween: 1,
         },
-        slidesPerView: 10,
-        breakpoints: {
-          640: {
-            slidesPerView: 5,
-            spaceBetween: 0,
-          },
-          768: {
-            slidesPerView: 5,
-            spaceBetween: 1,
-          },
-          1024: {
-            slidesPerView: 8,
-            spaceBetween: 2,
-          },
+        1024: {
+          slidesPerView: 8,
+          spaceBetween: 2,
         },
-      });
-    </script>
-    <!--  Swiper js For carousel  -->
-    <script>
-      // Set the target date and time
-      const dayDiv = document.getElementById("days");
-      const hoursDiv = document.getElementById("hours");
-      const minutesDiv = document.getElementById("minutes");
-      const secondDiv = document.getElementById("second");
-      const targetDate = new Date();
-      targetDate.setDate(targetDate.getDate() + 6); // Add 6 days
-      targetDate.setHours(targetDate.getHours() + 12); // Add 12 hours
-      targetDate.setMinutes(targetDate.getMinutes() + 34); // Add 34 minutes
+      },
+    });
+  </script>
+  <!--  Swiper js For carousel  -->
+  <script>
+    // Set the target date and time
+    const dayDiv = document.getElementById("days");
+    const hoursDiv = document.getElementById("hours");
+    const minutesDiv = document.getElementById("minutes");
+    const secondDiv = document.getElementById("second");
+    const targetDate = new Date();
+    targetDate.setDate(targetDate.getDate() + 6); // Add 6 days
+    targetDate.setHours(targetDate.getHours() + 12); // Add 12 hours
+    targetDate.setMinutes(targetDate.getMinutes() + 34); // Add 34 minutes
 
-      // Function to update the countdown
-      function updateCountdown() {
-        const now = new Date();
-        const timeDifference = targetDate - now;
+    // Function to update the countdown
+    function updateCountdown() {
+      const now = new Date();
+      const timeDifference = targetDate - now;
 
-        // Calculate days, hours, minutes, and seconds
-        const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-        const hours = Math.floor(
-          (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        const minutes = Math.floor(
-          (timeDifference % (1000 * 60 * 60)) / (1000 * 60)
-        );
-        const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+      // Calculate days, hours, minutes, and seconds
+      const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor(
+        (timeDifference % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-        // Display the countdown
-        // console.log(
-        //   `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`
-        // );
-        dayDiv.innerText = `${days} `;
-        hoursDiv.innerText = `${hours} `;
-        minutesDiv.innerText = `${minutes} `;
-        secondDiv.innerText = `${seconds} `;
+      // Display the countdown
+      // console.log(
+      //   `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`
+      // );
+      dayDiv.innerText = `${days} `;
+      hoursDiv.innerText = `${hours} `;
+      minutesDiv.innerText = `${minutes} `;
+      secondDiv.innerText = `${seconds} `;
 
-        // Check if the countdown is finished
-        if (timeDifference < 0) {
-          clearInterval(interval);
-          console.log("Countdown finished!");
-        }
+      // Check if the countdown is finished
+      if (timeDifference < 0) {
+        clearInterval(interval);
+        console.log("Countdown finished!");
       }
+    }
 
-      // Update the countdown every second
-      const interval = setInterval(updateCountdown, 1000);
-    </script>
-  </body>
+    // Update the countdown every second
+    const interval = setInterval(updateCountdown, 1000);
+  </script>
+</body>
+
 </html>
