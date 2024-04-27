@@ -21,4 +21,7 @@
       @apply container mx-auto flex items-start gap-5 
    }
    /*  Hero Section  */
+   .cardItem{
+   @apply  w-full bg-white max-w-[236px] min-h-[350px] h-full max-h-[353px] text-center flex flex-col gap-y-2 shadow-md shadow-slate-50/40
+   }
 }
