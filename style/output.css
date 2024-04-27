@@ -727,6 +727,18 @@ video {
   max-height: 426px;
 }
 
+.max-h-\[\]{
+  max-height: ;
+}
+
+.max-h-\[203\]{
+  max-height: 203;
+}
+
+.max-h-\[203px\]{
+  max-height: 203px;
+}
+
 .min-h-\[350px\]{
   min-height: 350px;
 }
@@ -753,6 +765,18 @@ video {
 
 .max-w-\[238px\]{
   max-width: 238px;
+}
+
+.max-w-\[\]{
+  max-width: ;
+}
+
+.max-w-\[4\]{
+  max-width: 4;
+}
+
+.max-w-\[496px\]{
+  max-width: 496px;
 }
 
 .flex-grow{
